@@ -51,12 +51,28 @@ main {
     flex: 1;
     padding: 15px;
 }
-
-/* portfolio styles */
-#interests {
-    border: 4px silver ridge;
-    padding: 8px;
+ /* portfolio styles */
+ .content h1 {
+    color: rgb(82, 8, 8);
 }
-h2, h3 {
-    margin: 0px;
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #46c832;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #f05024;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
 }
