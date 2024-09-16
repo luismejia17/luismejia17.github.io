@@ -57,6 +57,8 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
     createCollectable("database",100,700);
+    createCollectable("database",300,500);
+    createCollectable("database",500,300)
 
 
     
