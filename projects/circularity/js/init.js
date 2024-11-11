@@ -54,7 +54,7 @@ var init = function (window) {
             }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-            We delete that function call because loops better than hard coding
+            //We delete that function call because loops better than hard coding
             
 
             // TODO 9 : Iterate over the array
